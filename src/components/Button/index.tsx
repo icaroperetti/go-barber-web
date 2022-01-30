@@ -1,11 +1,12 @@
 import React,{ButtonHTMLAttributes} from 'react'
+import { Container } from './styles';
 
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
 
 const Button: React.FC <ButtonProps> = ({children,...rest}) => {
   return(
-      <button {...rest }>{children}</button>
+     <Container {...rest }>{children}</Container>
   ) 
 }
 
