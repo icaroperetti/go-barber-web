@@ -25,11 +25,16 @@ export const Content = styled.div`
       margin-bottom: 24px;
     }
     input {
+      color:#f4ede8;
       background: #232129;
       border-radius: 10px;
       border:2px solid #232129;
       padding:16px;
       width: 100%;
+
+      &::placeholder {
+        color:#666360
+      }
 
       & + input {
         margin-top:16px;
@@ -71,7 +76,7 @@ export const Content = styled.div`
     align-items: center;
     margin-top:24px;
     text-decoration:none;
-    transition:background-color 0.2s;
+    transition:color 0.2s;
 
     svg {
       margin-right: 15px;
