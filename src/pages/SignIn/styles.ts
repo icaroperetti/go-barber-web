@@ -24,22 +24,7 @@ export const Content = styled.div`
     h1 {
       margin-bottom: 24px;
     }
-    input {
-      color:#f4ede8;
-      background: #232129;
-      border-radius: 10px;
-      border:2px solid #232129;
-      padding:16px;
-      width: 100%;
-
-      &::placeholder {
-        color:#666360
-      }
-
-      & + input {
-        margin-top:16px;
-      }
-    }
+   
 
     button {
       background: #ff9000;
